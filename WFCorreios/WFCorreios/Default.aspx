@@ -13,22 +13,32 @@
            <%--     --%>
                 <div class="text-danger"><asp:Literal ID="ltlCompanyCep" runat="server"  /></div>
         </div>
-            <div class="col-sm-5">
+    </div>    
+
+    <div class="row">
+            <div class="col-sm-4">
             <label>Endereço:</label>
             <asp:TextBox ID="txtStreet" runat="server" CssClass="form-control"></asp:TextBox>
         </div>
-            <div class="col-sm-5">
+            <div class="col-sm-4">
             <label>Cidade:</label>
             <asp:TextBox ID="txtCity" runat="server" CssClass="form-control"></asp:TextBox>
-        </div>            
+        </div>   
+         <div class="col-sm-4">
+            <label>Bairro:</label>
+            <asp:TextBox ID="txtDistrict" runat="server" CssClass="form-control"></asp:TextBox>
+        </div>   
     </div>    
 
-                                                                                              
+
+
+
+          <%--                                                                                    
     <div class="row text-right">
         <div class="col-lg-12">
             <asp:Button runat="server" ID="btnConfirm" Text="CONFIRMAR" CssClass="btn btn-primary" OnClick="btnConsultaCep" />
         </div>                                     
-    </div>
+    </div>--%>
 
 
 </asp:Content>

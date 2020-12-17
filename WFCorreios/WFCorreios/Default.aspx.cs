@@ -37,7 +37,8 @@ namespace WFCorreios
                     {
                         myMasterPage.message("CEP Encontrado!", SiteMaster.Alert_CSS.sucess);
                         txtStreet.Text = retorno.end;
-                        txtCity.Text = retorno.cidade;                
+                        txtCity.Text = retorno.cidade;
+                        txtDistrict.Text = retorno.bairro;
                         
                     }
                     

@@ -49,12 +49,12 @@ namespace WFCorreios {
         protected global::System.Web.UI.WebControls.TextBox txtCity;
         
         /// <summary>
-        /// Controle btnConfirm.
+        /// Controle txtDistrict.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnConfirm;
+        protected global::System.Web.UI.WebControls.TextBox txtDistrict;
     }
 }

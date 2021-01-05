@@ -8,7 +8,7 @@
 
 
 <p align="left">
-  <img src="https://github.com/barbosahub/PE-WebService_WebForms/blob/main/images/Encontrado.JPG" width="750" alt="accessibility text">
+  <img src="https://github.com/barbosahub/ImageRepository/blob/master/PE-WebService_WebForms/Encontrado.JPG" width="750" alt="Retorno de consulta com CEP">
 </p>
 
 
